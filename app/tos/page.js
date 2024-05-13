@@ -57,39 +57,34 @@ const TOS = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: September 26, 2023
+          {`Fecha de última actualización: 13 de mayo de 2024
 
-Welcome to ShipFast!
+Bienvenido/a a BrainX. Estos Términos y Condiciones rigen el uso del sitio web brainx.es y cualquier dispositivo o servicio ofrecido por BrainX.
 
-These Terms of Service ("Terms") govern your use of the ShipFast website at https://shipfa.st ("Website") and the services provided by ShipFast. By using our Website and services, you agree to these Terms.
+1. Aceptación de los Términos y Condiciones
 
-1. Description of ShipFast
+Al acceder o utilizar cualquier parte de BrainX, aceptas estar legalmente vinculado por estos Términos y Condiciones. Si no estás de acuerdo con alguno de estos términos, por favor no utilices nuestros servicios.
 
-ShipFast is a platform that offers a JavaScript code boilerplate to assist entrepreneurs in launching their startups more efficiently.
+2. Uso de los Servicios
 
-2. Ownership and Usage Rights
+Al utilizar BrainX, aceptas cumplir con todas las leyes y regulaciones aplicables.
+No puedes utilizar nuestros servicios de manera que interfiera o dañe la funcionalidad del sitio web o cualquier dispositivo asociado.
+3. Propiedad Intelectual
 
-When you purchase a package from ShipFast, you gain the right to download and use the code provided for creating applications. You own the code you create but do not have the right to resell it. We offer a full refund within 7 days of purchase, as specified in our refund policy.
+Todos los derechos de propiedad intelectual relacionados con BrainX, incluidos los derechos de autor, marcas comerciales y patentes, son propiedad de BrainX.
+4. Limitación de Responsabilidad
 
-3. User Data and Privacy
+En ningún caso BrainX será responsable por daños directos, indirectos, incidentales, especiales, consecuentes o punitivos que surjan del uso o la imposibilidad de utilizar nuestros servicios.
+5. Modificaciones de los Servicios
 
-We collect and store user data, including name, email, and payment information, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://shipfa.st/privacy-policy.
+Nos reservamos el derecho de modificar, suspender o discontinuar cualquier aspecto de BrainX en cualquier momento y sin previo aviso.
+6. Ley Aplicable
 
-4. Non-Personal Data Collection
+Estos Términos y Condiciones se regirán e interpretarán de acuerdo con las leyes de [indica aquí el país o región donde se encuentra registrada tu empresa].
+7. Contáctanos
 
-We use web cookies to collect non-personal data for the purpose of improving our services and user experience.
-
-5. Governing Law
-
-These Terms are governed by the laws of France.
-
-6. Updates to the Terms
-
-We may update these Terms from time to time. Users will be notified of any changes via email.
-
-For any questions or concerns regarding these Terms of Service, please contact us at marc@shipfa.st.
-
-Thank you for using ShipFast!`}
+Si tienes alguna pregunta o inquietud sobre estos Términos y Condiciones, no dudes en contactarnos a través de info@brainx.es.
+Al utilizar BrainX, aceptas los términos y condiciones descritos anteriormente. Si no estás de acuerdo con estos términos, por favor no utilices nuestros servicios.`}
         </pre>
       </div>
     </main>
