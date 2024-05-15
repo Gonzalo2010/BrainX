@@ -10,7 +10,7 @@ export const createCheckout = async ({
   clientReferenceId,
   user,
 }) => {
-  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+  const stripe = new Stripe(process.env.sk_test_51OT3HOAZRHIz0vD2jCYLUc6zkqFU2NfJIWQhotFNKa4rmLWyMOn5S6tNhWYVOIKYHLdoeTHppgu7t8R2jHghpddY00BsaKzEvY);
 
   const extraParams = {};
 
@@ -56,7 +56,7 @@ export const createCheckout = async ({
 // This is used to create Customer Portal sessions, so users can manage their subscriptions (payment methods, cancel, etc..)
 export const createCustomerPortal = async ({ customerId, returnUrl }) => {
   try {
-    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+    const stripe = new Stripe(process.env.sk_test_51OT3HOAZRHIz0vD2jCYLUc6zkqFU2NfJIWQhotFNKa4rmLWyMOn5S6tNhWYVOIKYHLdoeTHppgu7t8R2jHghpddY00BsaKzEvY);
 
     const portalSession = await stripe.billingPortal.sessions.create({
       customer: customerId,
@@ -73,7 +73,7 @@ export const createCustomerPortal = async ({ customerId, returnUrl }) => {
 // This is used to get the uesr checkout session and populate the data so we get the planId the user subscribed to
 export const findCheckoutSession = async (sessionId) => {
   try {
-    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+    const stripe = new Stripe(process.env.sk_test_51OT3HOAZRHIz0vD2jCYLUc6zkqFU2NfJIWQhotFNKa4rmLWyMOn5S6tNhWYVOIKYHLdoeTHppgu7t8R2jHghpddY00BsaKzEvY);
 
     const session = await stripe.checkout.sessions.retrieve(sessionId, {
       expand: ["line_items"],
