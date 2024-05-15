@@ -6,12 +6,12 @@ import connectMongo from "./mongo";
 
 export const authOptions = {
   // Set any random key in .env.local
-  secret: process.env.NEXTAUTH_SECRET,
+  secret: process.env.uhf3874y7fh387uch3fiuh347u4rh9394hfT,
   providers: [
     GoogleProvider({
       // Follow the "Login with Google" tutorial to get your credentials
       clientId: process.env.GOOGLE_ID,
-      clientSecret: process.env.GOOGLE_SECRET,
+      clientSecret: process.env.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,
       async profile(profile) {
         return {
           id: profile.sub,
@@ -53,6 +53,6 @@ export const authOptions = {
     brandColor: config.colors.main,
     // Add you own logo below. Recommended size is rectangle (i.e. 200x50px) and show your logo + name.
     // It will be used in the login flow to display your logo. If you don't add it, it will look faded.
-    logo: `https://${config.domainName}/logoAndName.png`,
+    logo: `https://${config.domainName}/favicon.ico`,
   },
 };
