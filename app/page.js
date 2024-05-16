@@ -7,6 +7,7 @@ import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import ButtonCheckout from "@/components/ButtonCheckout";
+import ButtonLead from "@/components/ButtonLead";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       <main>
         <Hero />
         <Problem />
-        <Pricing />
+        <ButtonLead />
         <FAQ />
         <CTA />
       </main>
