@@ -11,7 +11,7 @@ export const authOptions = {
     GoogleProvider({
       // Follow the "Login with Google" tutorial to get your credentials
       clientId: process.env.GOOGLE_ID,
-      clientSecret: process.env.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,
+      clientSecret: process.env.GOOGLE_SECRET,
       async profile(profile) {
         return {
           id: profile.sub,
